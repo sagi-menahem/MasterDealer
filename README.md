@@ -23,13 +23,25 @@
 
 ## About
 
-**MasterDealer** is a premium web application built to replace a legacy Android/Firebase poker tracking system. It provides professional-grade poker session management for serious players and clubs.
+**MasterDealer** is a premium web application built to replace a legacy Android/Firebase poker tracking system. It provides professional-grade poker session management for serious players and clubs. Built end-to-end as the sole engineer — the codebase itself is private; this README is the portfolio-facing summary covering the architecture, engineering decisions, and screenshots that I can share publicly.
 
 The platform enables poker groups to:
 - Track game sessions with precise buy-in and cash-out recording
 - Calculate settlements automatically using an optimized algorithm
 - View comprehensive statistics and lifetime records
 - Share memorable moments with photo galleries
+
+---
+
+## How This Was Built
+
+Built solo, **AI-first**: I orchestrate AI coding agents (Claude Code, Codex) through a documented methodology rather than writing every line by hand — the engineering discipline is the point, not the speed.
+
+- **`AGENTS.md` as the single source of truth** — a rules file in the repo defines the architecture, conventions, and hard constraints every agent must obey: money never in floats (`decimal.js` for every settlement calculation), the pot must always validate zero-sum before a game can close, every group-scoped query is checked against the caller's role and group membership server-side.
+- **Guardrail scripts & audit pipelines** — automated checks run on every change (Zod schema validation on every mutation, decimal-money precision rules, Hebrew/English/Russian translation parity), so quality is enforced by tooling, not vigilance.
+- **The engineer decides, the agent executes** — every schema, settlement algorithm, and architectural choice on this page was designed and reviewed by me. Agents accelerate implementation; they never own the design.
+
+The result: one engineer delivering a production system at team-level velocity — with the discipline the decisions below reflect.
 
 ---
 
