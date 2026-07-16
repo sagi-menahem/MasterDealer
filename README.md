@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
   <h1>MasterDealer</h1>
   <p><strong>Premium Poker Tracking Application</strong></p>
   <p>A poker session tracking platform featuring real-time updates, multi-group support, and automatic settlement calculations. Designed for serious poker groups who want to track their games professionally.</p>
@@ -35,13 +35,7 @@ The platform enables poker groups to:
 
 ## How This Was Built
 
-Built solo, **AI-first**: I orchestrate AI coding agents (Claude Code, Codex) through a documented methodology rather than writing every line by hand — the engineering discipline is the point, not the speed.
-
-- **`AGENTS.md` as the single source of truth** — a rules file in the repo defines the architecture, conventions, and hard constraints every agent must obey: money never in floats (`decimal.js` for every settlement calculation), the pot must always validate zero-sum before a game can close, every group-scoped query is checked against the caller's role and group membership server-side.
-- **Guardrail scripts & audit pipelines** — automated checks run on every change (Zod schema validation on every mutation, decimal-money precision rules, Hebrew/English/Russian translation parity), so quality is enforced by tooling, not vigilance.
-- **The engineer decides, the agent executes** — every schema, settlement algorithm, and architectural choice on this page was designed and reviewed by me. Agents accelerate implementation; they never own the design.
-
-The result: one engineer delivering a production system at team-level velocity — with the discipline the decisions below reflect.
+Built AI-first: I orchestrate AI coding agents (Claude Code, Codex) under guardrail scripts and audit pipelines that run on every change — but every schema, settlement algorithm, and architectural decision here was designed and reviewed by me. Agents accelerate implementation; they don't own the design.
 
 ---
 
