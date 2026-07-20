@@ -31,13 +31,6 @@ The platform enables poker groups to:
 - View comprehensive statistics and lifetime records
 - Share memorable moments with photo galleries
 
----
-
-## How This Was Built
-
-Built AI-first: I orchestrate AI coding agents (Claude Code, Codex) under guardrail scripts and audit pipelines that run on every change — but every schema, settlement algorithm, and architectural decision here was designed and reviewed by me. Agents accelerate implementation; they don't own the design.
-
----
 
 ## Features
 
