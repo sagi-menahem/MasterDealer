@@ -1,4 +1,4 @@
-![MasterDealer — poker session tracker](assets/brand/banner.svg)
+![MasterDealer — poker session tracker](assets/brand/banner.png)
 
 # MasterDealer
 
