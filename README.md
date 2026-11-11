@@ -45,4 +45,4 @@ Next.js, TypeScript, Tailwind CSS, Supabase PostgreSQL, Drizzle ORM, Supabase Re
 
 ---
 
-Built by **[Sagi Menahem](https://www.sagimenahem.tech/)** · [LinkedIn](https://www.linkedin.com/in/sagi-menahem/)
+Built by **[Sagi Menahem](https://www.sagimenahem.com/)** · [LinkedIn](https://www.linkedin.com/in/sagi-menahem/)
