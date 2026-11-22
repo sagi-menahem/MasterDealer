@@ -4,7 +4,7 @@
 
 MasterDealer is an independent poker-session tracker for groups that want a shared, reliable view of buy-ins, cash-outs, settlements, and long-term records. It modernizes a legacy Android and Firebase workflow into a web product that participants can use together while a game is in progress.
 
-**Project type:** independent product · **Role:** sole designer and engineer · **Source:** private; this repository is a public case study. · [Visit MasterDealer](https://masterdealer.online)
+**Project type:** independent product · **Role:** sole designer and engineer · **Source:** private; this repository is a public case study. · [Visit MasterDealer](https://masterdealer.vercel.app)
 
 ## Preview
 
